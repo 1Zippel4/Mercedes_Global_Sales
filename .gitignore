@@ -179,3 +179,5 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+input/processed/mercedes_sales_processed.csv
+/input
