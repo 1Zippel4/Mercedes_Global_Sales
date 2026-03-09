@@ -10,7 +10,6 @@ Die Daten wurden lokal heruntergeladen und im Ordner `input/raw` gespeichert.
 Für die Analyse wurde eine aufbereitete Version im Ordner `input/processed` erzeugt.
 
 
-
 ─Mercedes_Global_Sales
 │   │   01_EDA_Mercedes_Global_Sales.ipynb
 │   │   02_Regressionsbaum.ipynb
