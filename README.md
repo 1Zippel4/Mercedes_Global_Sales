@@ -93,7 +93,6 @@ Inhalte:
 Ziel:  
 Grundlegendes Verständnis der Daten und möglicher Einflussfaktoren.
 
----
 
 ### 2 Regressionsbaum
 
