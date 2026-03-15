@@ -10,53 +10,53 @@ Die Daten wurden lokal heruntergeladen und im Ordner `input/raw` gespeichert.
 Für die Analyse wurde eine aufbereitete Version im Ordner `input/processed` erzeugt.
 
 
-─Mercedes_Global_Sales
-│   │   01_EDA_Mercedes_Global_Sales.ipynb
-│   │   02_Regressionsbaum.ipynb
-│   │   03_Multiple_Regression.ipynb
-│   │   README.md
-│   │
-│   ├───docs
-│   │       01_EDA_Mercedes_Global_Sales.pdf
-│   │       02_Regressionsbaum.pdf
-│   │       03_Multiple_Regression.pdf
-│   │       Mercedes_Sales_Profiling.html
-│   │
-│   ├───input
-│   │   ├───processed
-│   │   │       mercedes_sales_processed.csv
-│   │   │
-│   │   └───raw
-│   │           mercedes_benz_sales_2020_2025.csv
-│   │
-│   └───output
-│       └───figures
-│           ├───eda
-│           │       01 Verteilung mit Quantilbereichen.png
-│           │       02 Base Price vs Horsepower PS.png
-│           │       03 Durchschnittspreis je Horsepower PS.png
-│           │       04 Verteilung Horsepower PS.png
-│           │       05 Base Price nach Modell Top 10.png
-│           │       06 Preis je Fuel Type Median.png
-│           │
-│           └───modeling
-│               ├───multiple_regression
-│               │       01 Durchschnittliche Vorhersage pro Preisgruppe.png
-│               │       02 Residual Plot.png
-│               │       03 Histogramm der Residuen.png
-│               │
-│               └───regressionsbaum
-│                       01 Relative Merkmale - Top 10.png
-│                       02 Regressionsbaum Ausschnitt bis Tiefe 3.png
-│                       03 Prognose vs Realität Stichprobe 10000.png
+───Mercedes_Global_Sales
+    │   .gitignore
+    │   01_EDA_Mercedes_Global_Sales.ipynb
+    │   02_Regressionsbaum.ipynb
+    │   03_Multiple_Regression.ipynb
+    │   README.md
+    │   requirements.txt
+    │
+    ├───docs
+    │       01_EDA_Mercedes_Global_Sales.pdf
+    │       02_Regressionsbaum.pdf
+    │       03_Multiple_Regression.pdf
+    │       Mercedes_Sales_Profiling.html
+    │
+    ├───input
+    │   ├───processed
+    │   │       mercedes_sales_processed.csv
+    │   │
+    │   └───raw
+    │           mercedes_benz_sales_2020_2025.csv
+    │
+    └───output
+        └───figures
+            ├───eda
+            │       01 Verteilung der Fahrzeugpreise.png
+            │       02 Preis vs Motorleistung PS.png
+            │       03 Durchschnittlicher Preis nach Motorleistung.png
+            │       04 Verteilung Motorleistung.png
+            │       05 Basispreis nach Modell Top 10.png
+            │       06 Preis nach Kraftstofftyp Median.png
+            │
+            └───modeling
+                ├───multiple_regression
+                │       01 Vorhersage pro Preisgruppe.png
+                │       02 Residual Plot Analyse der Fehlerstreuung.png
+                │       03 Häufigkeitsverteilung der Residuen.png
+                │
+                └───regressionsbaum
+                        01 Relative Merkmale - Top 10.png
+                        02 Regressionsbaum Ausschnitt bis Tiefe 3.png
+                        03 Prognose vs Realität Stichprobe 10000.png
 
 
 ## Ziel der Analyse
 Ziel dieser Analyse ist die Untersuchung der Preisstruktur von Mercedes-Benz Fahrzeugen im Zeitraum von **2020 bis 2025**.  
 Im Mittelpunkt steht die Frage, **Welche Fahrzeugmerkmale den Basispreis beeinflussen**.
-
 Die Analyse kombiniert explorative Datenanalyse mit statistischen und maschinellen Lernverfahren.
-
 
 ## Datensatz
 Der Datensatz enthält Informationen zu Mercedes-Benz Fahrzeugen mit folgenden Variablen:
@@ -71,10 +71,6 @@ Der Datensatz enthält Informationen zu Mercedes-Benz Fahrzeugen mit folgenden V
 - Basispreis in USD
 
 Datensatzgröße: **ca. 12 Millionen Beobachtungen**
-
-
-## Analyseablauf
-Die Analyse ist in drei Notebooks gegliedert.
 
 
 ### 1 Explorative Datenanalyse
@@ -92,7 +88,6 @@ Inhalte:
 Ziel:  
 Grundlegendes Verständnis der Daten und möglicher Einflussfaktoren.
 
-
 ### 2 Regressionsbaum
 
 Notebook:  
@@ -109,7 +104,6 @@ Inhalte:
 
 Ziel:  
 Identifikation der wichtigsten Merkmale für die Preisbildung.
-
 
 ### 3 Multiple lineare Regression
 
@@ -132,7 +126,6 @@ Inhalte:
 
 Ziel:  
 Quantitative Bewertung des Einflusses einzelner Fahrzeugmerkmale auf den Basispreis.
-
 
 ## Reproduzierbarkeit
 Die Analyse kann vollständig reproduziert werden, indem die Notebooks in folgender Reihenfolge ausgeführt werden:
