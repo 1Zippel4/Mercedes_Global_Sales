@@ -12,6 +12,16 @@ https://www.kaggle.com/datasets/dhrubangtalukdar/mercedes-global-car-sales-2020-
 Die Daten wurden lokal heruntergeladen und im Ordner `input/raw` gespeichert.
 Für die Analyse wurde eine aufbereitete Version im Ordner `input/processed` erzeugt.
 
+-----------------------------------------------------------------------------------------------------------------
+
+## Zentrale Fragestellung
+Welche Fahrzeugmerkmale beeinflussen den Basispreis von Mercedes-Benz Fahrzeugen
+und welche Muster lassen sich in der Preisstruktur erkennen?
+
+
+## Ziel der Analyse
+Ziel der Analyse ist es, die Preisstruktur von Mercedes-Benz Fahrzeugen im Zeitraum
+2020–2025 zu untersuchen und zentrale Einflussfaktoren auf den Basispreis zu identifizieren.
 
 ## Projektstruktur
 
@@ -41,16 +51,6 @@ Mercedes_Global_Sales
         ├── eda
         └── modeling
 ```
-
-
-## Zentrale Fragestellung
-Welche Fahrzeugmerkmale beeinflussen den Basispreis von Mercedes-Benz Fahrzeugen
-und welche Muster lassen sich in der Preisstruktur erkennen?
-
-
-## Ziel der Analyse
-Ziel der Analyse ist es, die Preisstruktur von Mercedes-Benz Fahrzeugen im Zeitraum
-2020–2025 zu untersuchen und zentrale Einflussfaktoren auf den Basispreis zu identifizieren.
 
 
 ## Verwendete Methoden
